@@ -23,7 +23,7 @@ on one of hyprland's available socket. Additionally, .yuck code is only produced
 there is a change between the last event. 
 
 <figure>
-![how mine is currently styled](./ss.png)
+    <img src="./ss.png"/>
     <figcaption>
     How my bar is styled. heavily inspired by dwm's default bar
     </figcaption>
