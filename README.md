@@ -13,7 +13,7 @@ this would be fun to do.
 
 * `active`
     * currently active workspace
-* `inactive`
+* `occupied`
     * workspaces with open windows but not focused
 * `empty`
     * workspaces with nothing in them
@@ -25,7 +25,7 @@ there is a change between the last event.
 <figure>
     <img src="./ss.png"/>
     <figcaption>
-    How my bar is styled. heavily inspired by dwm's default bar
+    Green is the `active`, amber is `occupied` and grey is `empty`
     </figcaption>
 </figure>
 
