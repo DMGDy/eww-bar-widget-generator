@@ -127,11 +127,11 @@ print_boxes(const workspace_info_t* workspace_info)
       box_buttons[i] = calloc(YUCK_BUTTON_LEN,sizeof(char));
       if (workspace_info->workspaces_status[i])
         snprintf(box_buttons[i],YUCK_BUTTON_LEN,
-                 "(button :class \"occupied\" :onclick \"/home/dylandy/.config/eww/C_scripts/workspaces %d\" \"%d\")"
+                 "(button :class \"occupied\" :onclick \"$HOME/.config/eww/bin/workspaces %d\" \"%d\")"
                  ,i+1,i+1);
       else 
         snprintf(box_buttons[i],YUCK_BUTTON_LEN,
-                 "(button :class \"empty\" :onclick \"/home/dylandy/.config/eww/C_scripts/workspaces %d\" \"%d\")"
+                 "(button :class \"empty\" :onclick \"$HOME/.config/eww/bin/workspaces %d\" \"%d\")"
                  ,i+1,i+1);
   }
 
