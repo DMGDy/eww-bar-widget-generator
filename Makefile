@@ -6,7 +6,7 @@ TARGET = workspaces
 SOURCES = $(wildcard *.c)
 OBJECTS = $(SOURCES:.c=.o)
 
-PREFIX = ~/Programs/eww/eww/scripts_new
+PREFIX = ${HOME}/.config/eww
 INSTALL_DIR = $(PREFIX)/bin
 
 .PHONY: all clean install uninstall
